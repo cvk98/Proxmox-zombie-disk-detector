@@ -14,7 +14,7 @@ There are no such VMs:
 ![vm-list](https://user-images.githubusercontent.com/88323643/170447477-cad92491-5b8f-49c2-b708-231813c49fc8.jpg)
 
 Then run the command:  
-`echo rbd rm YOUR_POOL_NAME/DISK_NAME`
+`rbd rm YOUR_POOL_NAME/DISK_NAME`
 
 If the disk is protected from deletion, check the snapshots:
 `rbd snap ls YOUR_POOL_NAME/DISK_NAME`
