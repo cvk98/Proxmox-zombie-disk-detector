@@ -1,4 +1,4 @@
-# Proxmox-zombie-disk-detector
+# Proxmox-zombie-disk-detector (CEPH storage only)
 
 These commands will help you find disks that are not connected to any VM. You need to run it on the Proxmox node.
 Replace YOUR_POOL_NAME with the name of your pool
