@@ -3,7 +3,7 @@
 These commands will help you find disks that are not connected to any VM. You need to run it on the Proxmox node.
 Replace POOL_NAME with the name of your pool
 
-**`for i in $(rbd ls POOL_NAME); do if ! grep -r "$i" /etc/pve/nodes/ > /dev/null; then echo HDD/$i; fi; done;`**
+**`for i in $(rbd ls POOL_NAME); do if ! grep -r "$i" /etc/pve/nodes/ > /dev/null; then echo POOL_NAME/$i; fi; done;`**
 
 **Be careful. Don't trust the script output 100%. Check every disk!!!**
 
